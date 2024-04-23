@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>Charcuterie Board Order Form</title>
+
+<style>
+/* CSS styles */
+
+form {
+width: 600px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input, select, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+background-color: #007bff;
+color: white;
+padding: 10px 20px;
+border: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Charcuterie Board Order Form</h1>
+
+<form id="orderForm">
+
+<!-- User details section -->
+
+<h2>Your Details</h2>
+
+<label for="name">Full Name:</label>
+<input type="text" id="name">
+
+<label for="email">Email:</label>
+<input type="email" id="email">
+
+<!-- etc... -->
+
+<!-- Event details section -->
+
+<h2>Event Details</h2>
+
+<label for="date">Date:</label>
+<input type="date" id="date">
+
+<!-- etc... -->
+
+<!-- Order details section -->
+
+<h2>Order Details</h2>
+
+<label for="board">Board Type:</label>
+<select id="board">
+<option value="standard">Standard</option>
+<option value="vegetarian">Vegetarian</option>
+</select>
+
+<!-- etc... -->
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+<script>
+// JavaScript validation
+</script>
+
+</body>
+</html>
